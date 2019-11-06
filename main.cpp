@@ -10,6 +10,7 @@
 
 int main()
 {
-    uniquePointerExample();
+    // uniquePointerExample();
+    templateExample();
     return 0;
 }

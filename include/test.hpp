@@ -6,4 +6,5 @@
  * 
  */
 
-int uniquePointerExample();
+void uniquePointerExample();
+void templateExample();

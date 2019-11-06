@@ -41,11 +41,10 @@ void allocateAndDestroySharedPointer()
     std::cout << "[SHARED] a = " << *a << ", b = " << *b << std::endl;
 }
 
-int uniquePointerExample()
+void uniquePointerExample()
 {
     allocateAndDestroyPointer();
     std::unique_ptr<int> a = allocateAndDestroyUniquePointerThenMove();
     std::cout <<"[OUT OF SCOPE] a = " << *a << std::endl;
     allocateAndDestroySharedPointer();
-    return 0;
 }

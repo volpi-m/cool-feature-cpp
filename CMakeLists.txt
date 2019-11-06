@@ -11,7 +11,8 @@ endif()
 
 find_package(Threads)
 
-set(SRC src/smart_pointers.cpp)
+set(SRC src/smart_pointers.cpp
+        src/templates.cpp)
 include_directories(include)
 
 ## Creating executable
