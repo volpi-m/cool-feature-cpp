@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 project(CoolFeatures)
 
 # Adding valgrind flags
@@ -11,10 +11,8 @@ endif()
 
 find_package(Threads)
 
-set(SRC)
-include_directories(
-  src
-  include)
+set(SRC src/smart_pointers.cpp)
+include_directories(include)
 
 ## Creating executable
 add_executable(CoolFeatures
