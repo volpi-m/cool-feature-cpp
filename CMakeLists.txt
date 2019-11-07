@@ -15,6 +15,7 @@ set(SRC src/smart_pointers.cpp
         src/templates.cpp
         src/async.cpp
         src/lambdas.cpp
+        src/optional.cpp
         src/Breakpoint.cpp)
 include_directories(include
                     src)

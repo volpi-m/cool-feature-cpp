@@ -16,3 +16,4 @@ void uniquePointerExample();
 void templateExample();
 void asyncExample(std::vector<std::future<void>> &futures);
 void lambdas();
+void optional();

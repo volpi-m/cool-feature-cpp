@@ -18,6 +18,8 @@ void lambdas()
 }
 
 /*
+** créer une array, doubler chaque élément et les trier dans l'ordre décroissant puis
+** afficher l'array en entier
 ** std::for_each
 ** std::sort
 */
