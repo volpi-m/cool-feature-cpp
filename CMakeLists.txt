@@ -12,8 +12,11 @@ endif()
 find_package(Threads)
 
 set(SRC src/smart_pointers.cpp
-        src/templates.cpp)
-include_directories(include)
+        src/templates.cpp
+        src/async.cpp
+        src/Breakpoint.cpp)
+include_directories(include
+                    src)
 
 ## Creating executable
 add_executable(CoolFeatures
