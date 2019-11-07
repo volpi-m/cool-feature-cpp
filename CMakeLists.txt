@@ -14,6 +14,7 @@ find_package(Threads)
 set(SRC src/smart_pointers.cpp
         src/templates.cpp
         src/async.cpp
+        src/lambdas.cpp
         src/Breakpoint.cpp)
 include_directories(include
                     src)
