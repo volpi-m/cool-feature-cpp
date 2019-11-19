@@ -8,9 +8,6 @@
 
 #include <iostream>
 
-// a != b, le pointeur est unique !
-
-// a peut être égal à b, on peut partager le pointeur
 template<typename T>
 class vector3 {
 public:

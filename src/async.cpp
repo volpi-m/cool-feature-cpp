@@ -7,12 +7,9 @@
  */
 
 #include <iostream>
-#include <dirent.h>
-#include <fstream>
 #include <future>
 #include <vector>
 #include <chrono>
-#include <mutex>
 
 void takeYourTime()
 {

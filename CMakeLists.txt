@@ -12,17 +12,21 @@ endif()
 find_package(Threads)
 
 set(SRC src/smart_pointers.cpp
-        src/templates.cpp
-        src/async.cpp
-        src/lambdas.cpp
-        src/optional.cpp
-        src/Breakpoint.cpp)
+  src/templates.cpp
+  src/async.cpp
+  src/lambdas.cpp
+  src/optional.cpp
+  src/Breakpoint.cpp)
+
+set(EXOS exos/async.cpp)
+
 include_directories(include
-                    src)
+  src)
 
 ## Creating executable
 add_executable(CoolFeatures
   ${SRC}
+  ${EXOS}
   main.cpp)
 
 ## Linking libraries
