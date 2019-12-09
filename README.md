@@ -1,2 +1,3 @@
-# cool-feature-cpp
-Cool features of C++
+# Cool features of C++
+
+Repository example for a C++ workshop
